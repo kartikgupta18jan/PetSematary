@@ -78,6 +78,9 @@
 		1F243B0A29B0866200AFAFBE /* UICollectionView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F243AE629B0866100AFAFBE /* UICollectionView+Additions.swift */; };
 		1F243B0B29B0866200AFAFBE /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F243AE829B0866100AFAFBE /* NetworkMonitor.swift */; };
 		1F243B1C29B0EBDA00AFAFBE /* pets_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F243B1B29B0EBDA00AFAFBE /* pets_list.json */; };
+		1F53121C29B8FD2700730018 /* PetsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53121A29B8FD2700730018 /* PetsViewModel.swift */; };
+		1F53121D29B8FD2700730018 /* PetCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53121B29B8FD2700730018 /* PetCellViewModel.swift */; };
+		1F53122029B9019500730018 /* PetsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53121F29B9019500730018 /* PetsService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -173,6 +176,9 @@
 		1F243AE629B0866100AFAFBE /* UICollectionView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Additions.swift"; sourceTree = "<group>"; };
 		1F243AE829B0866100AFAFBE /* NetworkMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
 		1F243B1B29B0EBDA00AFAFBE /* pets_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pets_list.json; sourceTree = "<group>"; };
+		1F53121A29B8FD2700730018 /* PetsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetsViewModel.swift; sourceTree = "<group>"; };
+		1F53121B29B8FD2700730018 /* PetCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetCellViewModel.swift; sourceTree = "<group>"; };
+		1F53121F29B9019500730018 /* PetsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetsService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,18 +206,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1F0F1BC129B4657F0094CB51 /* PetList */ = {
+		1F0F1BC129B4657F0094CB51 /* Pets */ = {
 			isa = PBXGroup;
 			children = (
-				1F0F1BC229B4657F0094CB51 /* Pets.storyboard */,
-				1F0F1BC329B4657F0094CB51 /* PetsViewController.swift */,
+				1F53121829B8FCE900730018 /* View */,
+				1F0F1C3729B4E1CD0094CB51 /* Model */,
+				1F53121929B8FD2700730018 /* ViewModel */,
 				1F0F1BC429B4657F0094CB51 /* PetsWireframe.swift */,
 				1F0F1BC529B4657F0094CB51 /* PetsInteractor.swift */,
 				1F0F1BC629B4657F0094CB51 /* PetsProtocol.swift */,
 				1F0F1BC729B4657F0094CB51 /* PetsPresenter.swift */,
-				1F0F1C3F29B4EEA70094CB51 /* Cell */,
 			);
-			path = PetList;
+			path = Pets;
 			sourceTree = "<group>";
 		};
 		1F0F1BCE29B46CB20094CB51 /* Common */ = {
@@ -313,6 +319,7 @@
 		1F0F1C3F29B4EEA70094CB51 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				1F53121729B8FCD400730018 /* New Group */,
 				1F0F1C4029B4EEA70094CB51 /* PetsListCellView.xib */,
 				1F0F1C4129B4EEA70094CB51 /* PetsListCellView.swift */,
 			);
@@ -344,8 +351,8 @@
 			children = (
 				1F243B1629B087FE00AFAFBE /* Application */,
 				1F243ACF29B0866100AFAFBE /* Utility */,
-				1F0F1BC129B4657F0094CB51 /* PetList */,
-				1F0F1C3729B4E1CD0094CB51 /* Model */,
+				1F53121E29B9019500730018 /* Services */,
+				1F53121629B8FB9100730018 /* UI */,
 				1F243B1829B09EC300AFAFBE /* Storyboards */,
 				1F243B1729B09EB300AFAFBE /* Resources */,
 				1F243AAD29B085ED00AFAFBE /* Info.plist */,
@@ -479,6 +486,48 @@
 				1F243AAA29B085ED00AFAFBE /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		1F53121629B8FB9100730018 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1F0F1BC129B4657F0094CB51 /* Pets */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		1F53121729B8FCD400730018 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		1F53121829B8FCE900730018 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1F0F1BC229B4657F0094CB51 /* Pets.storyboard */,
+				1F0F1BC329B4657F0094CB51 /* PetsViewController.swift */,
+				1F0F1C3F29B4EEA70094CB51 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1F53121929B8FD2700730018 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1F53121A29B8FD2700730018 /* PetsViewModel.swift */,
+				1F53121B29B8FD2700730018 /* PetCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1F53121E29B9019500730018 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1F53121F29B9019500730018 /* PetsService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -641,6 +690,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F243B0929B0866200AFAFBE /* CustomStringConvertible+Codable.swift in Sources */,
+				1F53122029B9019500730018 /* PetsService.swift in Sources */,
 				1F0F1BD329B46CB20094CB51 /* CircularProgressView.swift in Sources */,
 				1F0F1BCD29B4657F0094CB51 /* PetsPresenter.swift in Sources */,
 				1F243B0529B0866200AFAFBE /* NetworkLogger.swift in Sources */,
@@ -655,6 +705,7 @@
 				1F0F1C4329B4EEA70094CB51 /* PetsListCellView.swift in Sources */,
 				1F0F1BCB29B4657F0094CB51 /* PetsInteractor.swift in Sources */,
 				1F243B0829B0866200AFAFBE /* StatusCode+Helper.swift in Sources */,
+				1F53121D29B8FD2700730018 /* PetCellViewModel.swift in Sources */,
 				1F243B0029B0866200AFAFBE /* ErrorMessage.swift in Sources */,
 				1F0F1BCA29B4657F0094CB51 /* PetsWireframe.swift in Sources */,
 				1F243AFB29B0866100AFAFBE /* NSMutableData+Append.swift in Sources */,
@@ -668,6 +719,7 @@
 				1F243B0129B0866200AFAFBE /* Errors.swift in Sources */,
 				1F243B0329B0866200AFAFBE /* HTTPHeaderField.swift in Sources */,
 				1F0F1C1A29B4B4990094CB51 /* UIColor+Ext.swift in Sources */,
+				1F53121C29B8FD2700730018 /* PetsViewModel.swift in Sources */,
 				1F0F1C3629B4E07C0094CB51 /* UIView+Ext.swift in Sources */,
 				1F0F1C3929B4E1CD0094CB51 /* Pets.swift in Sources */,
 				1F0F1CDA29B510A20094CB51 /* Date+Ext.swift in Sources */,
