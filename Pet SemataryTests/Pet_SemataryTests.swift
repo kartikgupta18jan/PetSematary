@@ -24,7 +24,7 @@ final class Pet_SemataryTests: XCTestCase {
     }
     
     func testFetchPets() async throws{
-        try await petListVM?.fetchData(pets: <#T##Pets#>)
+        try petListVM?.fetchData(pets: petListVM?.pets!)
     }
 
     override func setUpWithError() throws {
