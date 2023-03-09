@@ -9,48 +9,10 @@
 /* Begin PBXBuildFile section */
 		1F0F1BC829B4657F0094CB51 /* Pets.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F0F1BC229B4657F0094CB51 /* Pets.storyboard */; };
 		1F0F1BC929B4657F0094CB51 /* PetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0F1BC329B4657F0094CB51 /* PetsViewController.swift */; };
-		1F0F1BCA29B4657F0094CB51 /* PetsWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0F1BC429B4657F0094CB51 /* PetsWireframe.swift */; };
-		1F0F1BCB29B4657F0094CB51 /* PetsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0F1BC529B4657F0094CB51 /* PetsInteractor.swift */; };
-		1F0F1BCC29B4657F0094CB51 /* PetsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0F1BC629B4657F0094CB51 /* PetsProtocol.swift */; };
-		1F0F1BCD29B4657F0094CB51 /* PetsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0F1BC729B4657F0094CB51 /* PetsPresenter.swift */; };
-		1F0F1BD329B46CB20094CB51 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0F1BD029B46CB20094CB51 /* CircularProgressView.swift */; };
-		1F0F1BD429B46CB20094CB51 /* BaseUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0F1BD129B46CB20094CB51 /* BaseUIViewController.swift */; };
-		1F0F1BD529B46CB20094CB51 /* BaseProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0F1BD229B46CB20094CB51 /* BaseProtocols.swift */; };
-		1F0F1BD729B46E340094CB51 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0F1BD629B46E340094CB51 /* Toast.swift */; };
-		1F0F1BF729B4B0330094CB51 /* SNProgressInnerHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0F1BF129B4B0330094CB51 /* SNProgressInnerHUD.swift */; };
-		1F0F1C1A29B4B4990094CB51 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0F1BFA29B4B4980094CB51 /* UIColor+Ext.swift */; };
-		1F0F1C1B29B4B4990094CB51 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0F1BFB29B4B4980094CB51 /* Theme.swift */; };
-		1F0F1C1C29B4B4990094CB51 /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F0F1BFE29B4B4990094CB51 /* Quicksand-Bold.ttf */; };
-		1F0F1C1D29B4B4990094CB51 /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F0F1BFF29B4B4990094CB51 /* Quicksand-Medium.ttf */; };
-		1F0F1C1E29B4B4990094CB51 /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F0F1C0029B4B4990094CB51 /* Quicksand-Regular.ttf */; };
-		1F0F1C1F29B4B4990094CB51 /* Quicksand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F0F1C0129B4B4990094CB51 /* Quicksand-Light.ttf */; };
-		1F0F1C2029B4B4990094CB51 /* Poppins.zip in Resources */ = {isa = PBXBuildFile; fileRef = 1F0F1C0229B4B4990094CB51 /* Poppins.zip */; };
-		1F0F1C2129B4B4990094CB51 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F0F1C0429B4B4990094CB51 /* Roboto-Regular.ttf */; };
-		1F0F1C2229B4B4990094CB51 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F0F1C0629B4B4990094CB51 /* Poppins-ExtraLight.ttf */; };
-		1F0F1C2329B4B4990094CB51 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F0F1C0729B4B4990094CB51 /* Poppins-ThinItalic.ttf */; };
-		1F0F1C2429B4B4990094CB51 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F0F1C0829B4B4990094CB51 /* Poppins-ExtraLightItalic.ttf */; };
-		1F0F1C2529B4B4990094CB51 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F0F1C0929B4B4990094CB51 /* Poppins-BoldItalic.ttf */; };
-		1F0F1C2629B4B4990094CB51 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F0F1C0A29B4B4990094CB51 /* Poppins-Light.ttf */; };
-		1F0F1C2729B4B4990094CB51 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F0F1C0B29B4B4990094CB51 /* Poppins-Medium.ttf */; };
-		1F0F1C2829B4B4990094CB51 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F0F1C0C29B4B4990094CB51 /* Poppins-SemiBoldItalic.ttf */; };
-		1F0F1C2929B4B4990094CB51 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F0F1C0D29B4B4990094CB51 /* Poppins-ExtraBoldItalic.ttf */; };
-		1F0F1C2A29B4B4990094CB51 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F0F1C0E29B4B4990094CB51 /* Poppins-ExtraBold.ttf */; };
-		1F0F1C2B29B4B4990094CB51 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F0F1C0F29B4B4990094CB51 /* Poppins-BlackItalic.ttf */; };
-		1F0F1C2C29B4B4990094CB51 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1F0F1C1029B4B4990094CB51 /* OFL.txt */; };
-		1F0F1C2D29B4B4990094CB51 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F0F1C1129B4B4990094CB51 /* Poppins-Regular.ttf */; };
-		1F0F1C2E29B4B4990094CB51 /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F0F1C1229B4B4990094CB51 /* Poppins-LightItalic.ttf */; };
-		1F0F1C2F29B4B4990094CB51 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F0F1C1329B4B4990094CB51 /* Poppins-Bold.ttf */; };
-		1F0F1C3029B4B4990094CB51 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F0F1C1429B4B4990094CB51 /* Poppins-Black.ttf */; };
-		1F0F1C3129B4B4990094CB51 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F0F1C1529B4B4990094CB51 /* Poppins-Thin.ttf */; };
-		1F0F1C3229B4B4990094CB51 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F0F1C1629B4B4990094CB51 /* Poppins-SemiBold.ttf */; };
-		1F0F1C3329B4B4990094CB51 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F0F1C1729B4B4990094CB51 /* Poppins-Italic.ttf */; };
-		1F0F1C3429B4B4990094CB51 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F0F1C1829B4B4990094CB51 /* Poppins-MediumItalic.ttf */; };
-		1F0F1C3629B4E07C0094CB51 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0F1C3529B4E07C0094CB51 /* UIView+Ext.swift */; };
+		1F0F1BCA29B4657F0094CB51 /* PetRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0F1BC429B4657F0094CB51 /* PetRouter.swift */; };
 		1F0F1C3929B4E1CD0094CB51 /* Pets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0F1C3829B4E1CD0094CB51 /* Pets.swift */; };
 		1F0F1C4229B4EEA70094CB51 /* PetsListCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F0F1C4029B4EEA70094CB51 /* PetsListCellView.xib */; };
 		1F0F1C4329B4EEA70094CB51 /* PetsListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0F1C4129B4EEA70094CB51 /* PetsListCellView.swift */; };
-		1F0F1CD829B4FDA50094CB51 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0F1CD729B4FDA50094CB51 /* ImageCache.swift */; };
-		1F0F1CDA29B510A20094CB51 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0F1CD929B510A20094CB51 /* Date+Ext.swift */; };
 		1F243AA029B085EB00AFAFBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F243A9F29B085EB00AFAFBE /* AppDelegate.swift */; };
 		1F243AA229B085EB00AFAFBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F243AA129B085EB00AFAFBE /* SceneDelegate.swift */; };
 		1F243AA729B085EB00AFAFBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F243AA529B085EB00AFAFBE /* Main.storyboard */; };
@@ -59,28 +21,61 @@
 		1F243AB729B085ED00AFAFBE /* Pet_SemataryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F243AB629B085ED00AFAFBE /* Pet_SemataryTests.swift */; };
 		1F243AC129B085ED00AFAFBE /* Pet_SemataryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F243AC029B085ED00AFAFBE /* Pet_SemataryUITests.swift */; };
 		1F243AC329B085ED00AFAFBE /* Pet_SemataryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F243AC229B085ED00AFAFBE /* Pet_SemataryUITestsLaunchTests.swift */; };
-		1F243AFA29B0866100AFAFBE /* Router+Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F243AD229B0866100AFAFBE /* Router+Request.swift */; };
-		1F243AFB29B0866100AFAFBE /* NSMutableData+Append.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F243AD329B0866100AFAFBE /* NSMutableData+Append.swift */; };
-		1F243AFC29B0866200AFAFBE /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F243AD429B0866100AFAFBE /* Router.swift */; };
-		1F243AFD29B0866200AFAFBE /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F243AD529B0866100AFAFBE /* ImageData.swift */; };
-		1F243AFE29B0866200AFAFBE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F243AD729B0866100AFAFBE /* NetworkManager.swift */; };
-		1F243AFF29B0866200AFAFBE /* ErrorParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F243AD929B0866100AFAFBE /* ErrorParser.swift */; };
-		1F243B0029B0866200AFAFBE /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F243ADA29B0866100AFAFBE /* ErrorMessage.swift */; };
-		1F243B0129B0866200AFAFBE /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F243ADB29B0866100AFAFBE /* Errors.swift */; };
-		1F243B0229B0866200AFAFBE /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F243ADD29B0866100AFAFBE /* Environment.swift */; };
-		1F243B0329B0866200AFAFBE /* HTTPHeaderField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F243ADE29B0866100AFAFBE /* HTTPHeaderField.swift */; };
-		1F243B0429B0866200AFAFBE /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F243ADF29B0866100AFAFBE /* HTTPMethod.swift */; };
-		1F243B0529B0866200AFAFBE /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F243AE029B0866100AFAFBE /* NetworkLogger.swift */; };
-		1F243B0629B0866200AFAFBE /* NetworkConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F243AE129B0866100AFAFBE /* NetworkConstant.swift */; };
-		1F243B0729B0866200AFAFBE /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F243AE229B0866100AFAFBE /* EndPoint.swift */; };
-		1F243B0829B0866200AFAFBE /* StatusCode+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F243AE429B0866100AFAFBE /* StatusCode+Helper.swift */; };
-		1F243B0929B0866200AFAFBE /* CustomStringConvertible+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F243AE529B0866100AFAFBE /* CustomStringConvertible+Codable.swift */; };
-		1F243B0A29B0866200AFAFBE /* UICollectionView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F243AE629B0866100AFAFBE /* UICollectionView+Additions.swift */; };
-		1F243B0B29B0866200AFAFBE /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F243AE829B0866100AFAFBE /* NetworkMonitor.swift */; };
 		1F243B1C29B0EBDA00AFAFBE /* pets_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F243B1B29B0EBDA00AFAFBE /* pets_list.json */; };
 		1F53121C29B8FD2700730018 /* PetsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53121A29B8FD2700730018 /* PetsViewModel.swift */; };
-		1F53121D29B8FD2700730018 /* PetCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53121B29B8FD2700730018 /* PetCellViewModel.swift */; };
-		1F53122029B9019500730018 /* PetsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53121F29B9019500730018 /* PetsService.swift */; };
+		1F53122429B9E88600730018 /* Launcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53122329B9E88600730018 /* Launcher.swift */; };
+		1F53122629BA062C00730018 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53122529BA062C00730018 /* AppConfig.swift */; };
+		1F53122D29BA090500730018 /* PetCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53122B29BA090500730018 /* PetCellViewModel.swift */; };
+		1F53122E29BA090500730018 /* ConfigViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53122C29BA090500730018 /* ConfigViewModel.swift */; };
+		1F53123029BA0AD800730018 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F53122F29BA0AD800730018 /* config.json */; };
+		1F53126D29BA231700730018 /* Router+Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53123329BA231700730018 /* Router+Request.swift */; };
+		1F53126E29BA231700730018 /* NSMutableData+Append.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53123429BA231700730018 /* NSMutableData+Append.swift */; };
+		1F53126F29BA231700730018 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53123529BA231700730018 /* Router.swift */; };
+		1F53127029BA231700730018 /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53123629BA231700730018 /* ImageData.swift */; };
+		1F53127129BA231700730018 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53123829BA231700730018 /* NetworkManager.swift */; };
+		1F53127229BA231700730018 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53123A29BA231700730018 /* NetworkMonitor.swift */; };
+		1F53127329BA231700730018 /* ErrorParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53123C29BA231700730018 /* ErrorParser.swift */; };
+		1F53127429BA231700730018 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53123D29BA231700730018 /* ErrorMessage.swift */; };
+		1F53127529BA231700730018 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53123E29BA231700730018 /* Errors.swift */; };
+		1F53127629BA231700730018 /* ConfigService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53124029BA231700730018 /* ConfigService.swift */; };
+		1F53127729BA231700730018 /* PetsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53124129BA231700730018 /* PetsService.swift */; };
+		1F53127829BA231700730018 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53124329BA231700730018 /* Environment.swift */; };
+		1F53127929BA231700730018 /* HTTPHeaderField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53124429BA231700730018 /* HTTPHeaderField.swift */; };
+		1F53127A29BA231700730018 /* StatusCode+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53124629BA231700730018 /* StatusCode+Helper.swift */; };
+		1F53127B29BA231700730018 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53124729BA231700730018 /* Date+Ext.swift */; };
+		1F53127C29BA231700730018 /* CustomStringConvertible+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53124829BA231700730018 /* CustomStringConvertible+Codable.swift */; };
+		1F53127D29BA231700730018 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53124929BA231700730018 /* UIView+Ext.swift */; };
+		1F53127E29BA231700730018 /* UICollectionView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53124A29BA231700730018 /* UICollectionView+Additions.swift */; };
+		1F53127F29BA231700730018 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53124B29BA231700730018 /* HTTPMethod.swift */; };
+		1F53128029BA231700730018 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53124D29BA231700730018 /* ImageCache.swift */; };
+		1F53128129BA231700730018 /* SNProgressInnerHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53124E29BA231700730018 /* SNProgressInnerHUD.swift */; };
+		1F53128229BA231700730018 /* BaseUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53124F29BA231700730018 /* BaseUIViewController.swift */; };
+		1F53128329BA231700730018 /* BaseProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53125029BA231700730018 /* BaseProtocols.swift */; };
+		1F53128429BA231700730018 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53125229BA231700730018 /* UIColor+Ext.swift */; };
+		1F53128529BA231700730018 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53125329BA231700730018 /* Theme.swift */; };
+		1F53128629BA231700730018 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F53125629BA231700730018 /* Poppins-ExtraLight.ttf */; };
+		1F53128729BA231700730018 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F53125729BA231700730018 /* Poppins-ThinItalic.ttf */; };
+		1F53128829BA231700730018 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F53125829BA231700730018 /* Poppins-ExtraLightItalic.ttf */; };
+		1F53128929BA231700730018 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F53125929BA231700730018 /* Poppins-BoldItalic.ttf */; };
+		1F53128A29BA231700730018 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F53125A29BA231700730018 /* Poppins-Light.ttf */; };
+		1F53128B29BA231700730018 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F53125B29BA231700730018 /* Poppins-Medium.ttf */; };
+		1F53128C29BA231700730018 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F53125C29BA231700730018 /* Poppins-SemiBoldItalic.ttf */; };
+		1F53128D29BA231700730018 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F53125D29BA231700730018 /* Poppins-ExtraBoldItalic.ttf */; };
+		1F53128E29BA231700730018 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F53125E29BA231700730018 /* Poppins-ExtraBold.ttf */; };
+		1F53128F29BA231700730018 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F53125F29BA231700730018 /* Poppins-BlackItalic.ttf */; };
+		1F53129029BA231700730018 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1F53126029BA231700730018 /* OFL.txt */; };
+		1F53129129BA231700730018 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F53126129BA231700730018 /* Poppins-Regular.ttf */; };
+		1F53129229BA231700730018 /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F53126229BA231700730018 /* Poppins-LightItalic.ttf */; };
+		1F53129329BA231700730018 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F53126329BA231700730018 /* Poppins-Bold.ttf */; };
+		1F53129429BA231700730018 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F53126429BA231700730018 /* Poppins-Black.ttf */; };
+		1F53129529BA231700730018 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F53126529BA231700730018 /* Poppins-Thin.ttf */; };
+		1F53129629BA231700730018 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F53126629BA231700730018 /* Poppins-SemiBold.ttf */; };
+		1F53129729BA231700730018 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F53126729BA231700730018 /* Poppins-Italic.ttf */; };
+		1F53129829BA231700730018 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F53126829BA231700730018 /* Poppins-MediumItalic.ttf */; };
+		1F53129929BA231700730018 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53126929BA231700730018 /* Toast.swift */; };
+		1F53129A29BA231700730018 /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53126A29BA231700730018 /* NetworkLogger.swift */; };
+		1F53129B29BA231700730018 /* NetworkConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53126B29BA231700730018 /* NetworkConstant.swift */; };
+		1F53129C29BA231700730018 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53126C29BA231700730018 /* EndPoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,48 +98,10 @@
 /* Begin PBXFileReference section */
 		1F0F1BC229B4657F0094CB51 /* Pets.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Pets.storyboard; sourceTree = "<group>"; };
 		1F0F1BC329B4657F0094CB51 /* PetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetsViewController.swift; sourceTree = "<group>"; };
-		1F0F1BC429B4657F0094CB51 /* PetsWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetsWireframe.swift; sourceTree = "<group>"; };
-		1F0F1BC529B4657F0094CB51 /* PetsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetsInteractor.swift; sourceTree = "<group>"; };
-		1F0F1BC629B4657F0094CB51 /* PetsProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetsProtocol.swift; sourceTree = "<group>"; };
-		1F0F1BC729B4657F0094CB51 /* PetsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetsPresenter.swift; sourceTree = "<group>"; };
-		1F0F1BD029B46CB20094CB51 /* CircularProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
-		1F0F1BD129B46CB20094CB51 /* BaseUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUIViewController.swift; sourceTree = "<group>"; };
-		1F0F1BD229B46CB20094CB51 /* BaseProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseProtocols.swift; sourceTree = "<group>"; };
-		1F0F1BD629B46E340094CB51 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
-		1F0F1BF129B4B0330094CB51 /* SNProgressInnerHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNProgressInnerHUD.swift; sourceTree = "<group>"; };
-		1F0F1BFA29B4B4980094CB51 /* UIColor+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
-		1F0F1BFB29B4B4980094CB51 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
-		1F0F1BFE29B4B4990094CB51 /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Bold.ttf"; sourceTree = "<group>"; };
-		1F0F1BFF29B4B4990094CB51 /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Medium.ttf"; sourceTree = "<group>"; };
-		1F0F1C0029B4B4990094CB51 /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Regular.ttf"; sourceTree = "<group>"; };
-		1F0F1C0129B4B4990094CB51 /* Quicksand-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Light.ttf"; sourceTree = "<group>"; };
-		1F0F1C0229B4B4990094CB51 /* Poppins.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = Poppins.zip; sourceTree = "<group>"; };
-		1F0F1C0429B4B4990094CB51 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
-		1F0F1C0629B4B4990094CB51 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
-		1F0F1C0729B4B4990094CB51 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
-		1F0F1C0829B4B4990094CB51 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
-		1F0F1C0929B4B4990094CB51 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
-		1F0F1C0A29B4B4990094CB51 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
-		1F0F1C0B29B4B4990094CB51 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
-		1F0F1C0C29B4B4990094CB51 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
-		1F0F1C0D29B4B4990094CB51 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
-		1F0F1C0E29B4B4990094CB51 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
-		1F0F1C0F29B4B4990094CB51 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
-		1F0F1C1029B4B4990094CB51 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
-		1F0F1C1129B4B4990094CB51 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
-		1F0F1C1229B4B4990094CB51 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
-		1F0F1C1329B4B4990094CB51 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
-		1F0F1C1429B4B4990094CB51 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
-		1F0F1C1529B4B4990094CB51 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
-		1F0F1C1629B4B4990094CB51 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
-		1F0F1C1729B4B4990094CB51 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
-		1F0F1C1829B4B4990094CB51 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
-		1F0F1C3529B4E07C0094CB51 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		1F0F1BC429B4657F0094CB51 /* PetRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetRouter.swift; sourceTree = "<group>"; };
 		1F0F1C3829B4E1CD0094CB51 /* Pets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pets.swift; sourceTree = "<group>"; };
 		1F0F1C4029B4EEA70094CB51 /* PetsListCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PetsListCellView.xib; sourceTree = "<group>"; };
 		1F0F1C4129B4EEA70094CB51 /* PetsListCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetsListCellView.swift; sourceTree = "<group>"; };
-		1F0F1CD729B4FDA50094CB51 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
-		1F0F1CD929B510A20094CB51 /* Date+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		1F243A9C29B085EB00AFAFBE /* Pet Sematary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pet Sematary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F243A9F29B085EB00AFAFBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F243AA129B085EB00AFAFBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -157,28 +114,61 @@
 		1F243ABC29B085ED00AFAFBE /* Pet SemataryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pet SemataryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F243AC029B085ED00AFAFBE /* Pet_SemataryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet_SemataryUITests.swift; sourceTree = "<group>"; };
 		1F243AC229B085ED00AFAFBE /* Pet_SemataryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet_SemataryUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		1F243AD229B0866100AFAFBE /* Router+Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Router+Request.swift"; sourceTree = "<group>"; };
-		1F243AD329B0866100AFAFBE /* NSMutableData+Append.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSMutableData+Append.swift"; sourceTree = "<group>"; };
-		1F243AD429B0866100AFAFBE /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
-		1F243AD529B0866100AFAFBE /* ImageData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
-		1F243AD729B0866100AFAFBE /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
-		1F243AD929B0866100AFAFBE /* ErrorParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorParser.swift; sourceTree = "<group>"; };
-		1F243ADA29B0866100AFAFBE /* ErrorMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
-		1F243ADB29B0866100AFAFBE /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
-		1F243ADD29B0866100AFAFBE /* Environment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
-		1F243ADE29B0866100AFAFBE /* HTTPHeaderField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPHeaderField.swift; sourceTree = "<group>"; };
-		1F243ADF29B0866100AFAFBE /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
-		1F243AE029B0866100AFAFBE /* NetworkLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
-		1F243AE129B0866100AFAFBE /* NetworkConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConstant.swift; sourceTree = "<group>"; };
-		1F243AE229B0866100AFAFBE /* EndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
-		1F243AE429B0866100AFAFBE /* StatusCode+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StatusCode+Helper.swift"; sourceTree = "<group>"; };
-		1F243AE529B0866100AFAFBE /* CustomStringConvertible+Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CustomStringConvertible+Codable.swift"; sourceTree = "<group>"; };
-		1F243AE629B0866100AFAFBE /* UICollectionView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Additions.swift"; sourceTree = "<group>"; };
-		1F243AE829B0866100AFAFBE /* NetworkMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
 		1F243B1B29B0EBDA00AFAFBE /* pets_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pets_list.json; sourceTree = "<group>"; };
 		1F53121A29B8FD2700730018 /* PetsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetsViewModel.swift; sourceTree = "<group>"; };
-		1F53121B29B8FD2700730018 /* PetCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetCellViewModel.swift; sourceTree = "<group>"; };
-		1F53121F29B9019500730018 /* PetsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetsService.swift; sourceTree = "<group>"; };
+		1F53122329B9E88600730018 /* Launcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launcher.swift; sourceTree = "<group>"; };
+		1F53122529BA062C00730018 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		1F53122B29BA090500730018 /* PetCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetCellViewModel.swift; sourceTree = "<group>"; };
+		1F53122C29BA090500730018 /* ConfigViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigViewModel.swift; sourceTree = "<group>"; };
+		1F53122F29BA0AD800730018 /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
+		1F53123329BA231700730018 /* Router+Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Router+Request.swift"; sourceTree = "<group>"; };
+		1F53123429BA231700730018 /* NSMutableData+Append.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSMutableData+Append.swift"; sourceTree = "<group>"; };
+		1F53123529BA231700730018 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		1F53123629BA231700730018 /* ImageData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
+		1F53123829BA231700730018 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		1F53123A29BA231700730018 /* NetworkMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		1F53123C29BA231700730018 /* ErrorParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorParser.swift; sourceTree = "<group>"; };
+		1F53123D29BA231700730018 /* ErrorMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
+		1F53123E29BA231700730018 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		1F53124029BA231700730018 /* ConfigService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigService.swift; sourceTree = "<group>"; };
+		1F53124129BA231700730018 /* PetsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetsService.swift; sourceTree = "<group>"; };
+		1F53124329BA231700730018 /* Environment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		1F53124429BA231700730018 /* HTTPHeaderField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPHeaderField.swift; sourceTree = "<group>"; };
+		1F53124629BA231700730018 /* StatusCode+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StatusCode+Helper.swift"; sourceTree = "<group>"; };
+		1F53124729BA231700730018 /* Date+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		1F53124829BA231700730018 /* CustomStringConvertible+Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CustomStringConvertible+Codable.swift"; sourceTree = "<group>"; };
+		1F53124929BA231700730018 /* UIView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		1F53124A29BA231700730018 /* UICollectionView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Additions.swift"; sourceTree = "<group>"; };
+		1F53124B29BA231700730018 /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		1F53124D29BA231700730018 /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		1F53124E29BA231700730018 /* SNProgressInnerHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNProgressInnerHUD.swift; sourceTree = "<group>"; };
+		1F53124F29BA231700730018 /* BaseUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUIViewController.swift; sourceTree = "<group>"; };
+		1F53125029BA231700730018 /* BaseProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseProtocols.swift; sourceTree = "<group>"; };
+		1F53125229BA231700730018 /* UIColor+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		1F53125329BA231700730018 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		1F53125629BA231700730018 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		1F53125729BA231700730018 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		1F53125829BA231700730018 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		1F53125929BA231700730018 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		1F53125A29BA231700730018 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		1F53125B29BA231700730018 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		1F53125C29BA231700730018 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		1F53125D29BA231700730018 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		1F53125E29BA231700730018 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		1F53125F29BA231700730018 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		1F53126029BA231700730018 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		1F53126129BA231700730018 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		1F53126229BA231700730018 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		1F53126329BA231700730018 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		1F53126429BA231700730018 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		1F53126529BA231700730018 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		1F53126629BA231700730018 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		1F53126729BA231700730018 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		1F53126829BA231700730018 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		1F53126929BA231700730018 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		1F53126A29BA231700730018 /* NetworkLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
+		1F53126B29BA231700730018 /* NetworkConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConstant.swift; sourceTree = "<group>"; };
+		1F53126C29BA231700730018 /* EndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,106 +202,15 @@
 				1F53121829B8FCE900730018 /* View */,
 				1F0F1C3729B4E1CD0094CB51 /* Model */,
 				1F53121929B8FD2700730018 /* ViewModel */,
-				1F0F1BC429B4657F0094CB51 /* PetsWireframe.swift */,
-				1F0F1BC529B4657F0094CB51 /* PetsInteractor.swift */,
-				1F0F1BC629B4657F0094CB51 /* PetsProtocol.swift */,
-				1F0F1BC729B4657F0094CB51 /* PetsPresenter.swift */,
 			);
 			path = Pets;
-			sourceTree = "<group>";
-		};
-		1F0F1BCE29B46CB20094CB51 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				1F0F1BFC29B4B4990094CB51 /* Font */,
-				1F0F1BF829B4B4980094CB51 /* Theme */,
-				1F0F1BF129B4B0330094CB51 /* SNProgressInnerHUD.swift */,
-				1F0F1BD629B46E340094CB51 /* Toast.swift */,
-				1F0F1BCF29B46CB20094CB51 /* Progress */,
-				1F0F1BD129B46CB20094CB51 /* BaseUIViewController.swift */,
-				1F0F1BD229B46CB20094CB51 /* BaseProtocols.swift */,
-				1F0F1CD729B4FDA50094CB51 /* ImageCache.swift */,
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
-		1F0F1BCF29B46CB20094CB51 /* Progress */ = {
-			isa = PBXGroup;
-			children = (
-				1F0F1BD029B46CB20094CB51 /* CircularProgressView.swift */,
-			);
-			path = Progress;
-			sourceTree = "<group>";
-		};
-		1F0F1BF829B4B4980094CB51 /* Theme */ = {
-			isa = PBXGroup;
-			children = (
-				1F0F1BFA29B4B4980094CB51 /* UIColor+Ext.swift */,
-				1F0F1BFB29B4B4980094CB51 /* Theme.swift */,
-			);
-			path = Theme;
-			sourceTree = "<group>";
-		};
-		1F0F1BFC29B4B4990094CB51 /* Font */ = {
-			isa = PBXGroup;
-			children = (
-				1F0F1BFD29B4B4990094CB51 /* Quicksand */,
-				1F0F1C0229B4B4990094CB51 /* Poppins.zip */,
-				1F0F1C0329B4B4990094CB51 /* Roboto */,
-				1F0F1C0529B4B4990094CB51 /* Poppins */,
-			);
-			path = Font;
-			sourceTree = "<group>";
-		};
-		1F0F1BFD29B4B4990094CB51 /* Quicksand */ = {
-			isa = PBXGroup;
-			children = (
-				1F0F1BFE29B4B4990094CB51 /* Quicksand-Bold.ttf */,
-				1F0F1BFF29B4B4990094CB51 /* Quicksand-Medium.ttf */,
-				1F0F1C0029B4B4990094CB51 /* Quicksand-Regular.ttf */,
-				1F0F1C0129B4B4990094CB51 /* Quicksand-Light.ttf */,
-			);
-			path = Quicksand;
-			sourceTree = "<group>";
-		};
-		1F0F1C0329B4B4990094CB51 /* Roboto */ = {
-			isa = PBXGroup;
-			children = (
-				1F0F1C0429B4B4990094CB51 /* Roboto-Regular.ttf */,
-			);
-			path = Roboto;
-			sourceTree = "<group>";
-		};
-		1F0F1C0529B4B4990094CB51 /* Poppins */ = {
-			isa = PBXGroup;
-			children = (
-				1F0F1C0629B4B4990094CB51 /* Poppins-ExtraLight.ttf */,
-				1F0F1C0729B4B4990094CB51 /* Poppins-ThinItalic.ttf */,
-				1F0F1C0829B4B4990094CB51 /* Poppins-ExtraLightItalic.ttf */,
-				1F0F1C0929B4B4990094CB51 /* Poppins-BoldItalic.ttf */,
-				1F0F1C0A29B4B4990094CB51 /* Poppins-Light.ttf */,
-				1F0F1C0B29B4B4990094CB51 /* Poppins-Medium.ttf */,
-				1F0F1C0C29B4B4990094CB51 /* Poppins-SemiBoldItalic.ttf */,
-				1F0F1C0D29B4B4990094CB51 /* Poppins-ExtraBoldItalic.ttf */,
-				1F0F1C0E29B4B4990094CB51 /* Poppins-ExtraBold.ttf */,
-				1F0F1C0F29B4B4990094CB51 /* Poppins-BlackItalic.ttf */,
-				1F0F1C1029B4B4990094CB51 /* OFL.txt */,
-				1F0F1C1129B4B4990094CB51 /* Poppins-Regular.ttf */,
-				1F0F1C1229B4B4990094CB51 /* Poppins-LightItalic.ttf */,
-				1F0F1C1329B4B4990094CB51 /* Poppins-Bold.ttf */,
-				1F0F1C1429B4B4990094CB51 /* Poppins-Black.ttf */,
-				1F0F1C1529B4B4990094CB51 /* Poppins-Thin.ttf */,
-				1F0F1C1629B4B4990094CB51 /* Poppins-SemiBold.ttf */,
-				1F0F1C1729B4B4990094CB51 /* Poppins-Italic.ttf */,
-				1F0F1C1829B4B4990094CB51 /* Poppins-MediumItalic.ttf */,
-			);
-			path = Poppins;
 			sourceTree = "<group>";
 		};
 		1F0F1C3729B4E1CD0094CB51 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				1F0F1C3829B4E1CD0094CB51 /* Pets.swift */,
+				1F53122529BA062C00730018 /* AppConfig.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -319,7 +218,6 @@
 		1F0F1C3F29B4EEA70094CB51 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				1F53121729B8FCD400730018 /* New Group */,
 				1F0F1C4029B4EEA70094CB51 /* PetsListCellView.xib */,
 				1F0F1C4129B4EEA70094CB51 /* PetsListCellView.swift */,
 			);
@@ -350,9 +248,9 @@
 			isa = PBXGroup;
 			children = (
 				1F243B1629B087FE00AFAFBE /* Application */,
-				1F243ACF29B0866100AFAFBE /* Utility */,
-				1F53121E29B9019500730018 /* Services */,
-				1F53121629B8FB9100730018 /* UI */,
+				1F53123129BA231700730018 /* Network */,
+				1F53124229BA231700730018 /* Utils */,
+				1F53121629B8FB9100730018 /* Screen */,
 				1F243B1829B09EC300AFAFBE /* Storyboards */,
 				1F243B1729B09EB300AFAFBE /* Resources */,
 				1F243AAD29B085ED00AFAFBE /* Info.plist */,
@@ -377,95 +275,12 @@
 			path = "Pet SemataryUITests";
 			sourceTree = "<group>";
 		};
-		1F243ACF29B0866100AFAFBE /* Utility */ = {
-			isa = PBXGroup;
-			children = (
-				1F243AD029B0866100AFAFBE /* Network */,
-				1F243AE329B0866100AFAFBE /* Extensions */,
-				1F243AE729B0866100AFAFBE /* NetworkMonitor */,
-			);
-			path = Utility;
-			sourceTree = "<group>";
-		};
-		1F243AD029B0866100AFAFBE /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				1F243AD129B0866100AFAFBE /* Routers */,
-				1F243AD629B0866100AFAFBE /* NetworkManager */,
-				1F243AD829B0866100AFAFBE /* NetworkError */,
-				1F243ADC29B0866100AFAFBE /* Utility */,
-			);
-			path = Network;
-			sourceTree = "<group>";
-		};
-		1F243AD129B0866100AFAFBE /* Routers */ = {
-			isa = PBXGroup;
-			children = (
-				1F243AD229B0866100AFAFBE /* Router+Request.swift */,
-				1F243AD329B0866100AFAFBE /* NSMutableData+Append.swift */,
-				1F243AD429B0866100AFAFBE /* Router.swift */,
-				1F243AD529B0866100AFAFBE /* ImageData.swift */,
-			);
-			path = Routers;
-			sourceTree = "<group>";
-		};
-		1F243AD629B0866100AFAFBE /* NetworkManager */ = {
-			isa = PBXGroup;
-			children = (
-				1F243AD729B0866100AFAFBE /* NetworkManager.swift */,
-			);
-			path = NetworkManager;
-			sourceTree = "<group>";
-		};
-		1F243AD829B0866100AFAFBE /* NetworkError */ = {
-			isa = PBXGroup;
-			children = (
-				1F243AD929B0866100AFAFBE /* ErrorParser.swift */,
-				1F243ADA29B0866100AFAFBE /* ErrorMessage.swift */,
-				1F243ADB29B0866100AFAFBE /* Errors.swift */,
-			);
-			path = NetworkError;
-			sourceTree = "<group>";
-		};
-		1F243ADC29B0866100AFAFBE /* Utility */ = {
-			isa = PBXGroup;
-			children = (
-				1F0F1BCE29B46CB20094CB51 /* Common */,
-				1F243ADD29B0866100AFAFBE /* Environment.swift */,
-				1F243ADE29B0866100AFAFBE /* HTTPHeaderField.swift */,
-				1F243ADF29B0866100AFAFBE /* HTTPMethod.swift */,
-				1F243AE029B0866100AFAFBE /* NetworkLogger.swift */,
-				1F243AE129B0866100AFAFBE /* NetworkConstant.swift */,
-				1F243AE229B0866100AFAFBE /* EndPoint.swift */,
-			);
-			path = Utility;
-			sourceTree = "<group>";
-		};
-		1F243AE329B0866100AFAFBE /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				1F243AE429B0866100AFAFBE /* StatusCode+Helper.swift */,
-				1F243AE529B0866100AFAFBE /* CustomStringConvertible+Codable.swift */,
-				1F243AE629B0866100AFAFBE /* UICollectionView+Additions.swift */,
-				1F0F1C3529B4E07C0094CB51 /* UIView+Ext.swift */,
-				1F0F1CD929B510A20094CB51 /* Date+Ext.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		1F243AE729B0866100AFAFBE /* NetworkMonitor */ = {
-			isa = PBXGroup;
-			children = (
-				1F243AE829B0866100AFAFBE /* NetworkMonitor.swift */,
-			);
-			path = NetworkMonitor;
-			sourceTree = "<group>";
-		};
 		1F243B1629B087FE00AFAFBE /* Application */ = {
 			isa = PBXGroup;
 			children = (
 				1F243A9F29B085EB00AFAFBE /* AppDelegate.swift */,
 				1F243AA129B085EB00AFAFBE /* SceneDelegate.swift */,
+				1F53122329B9E88600730018 /* Launcher.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -475,6 +290,7 @@
 			children = (
 				1F243AA829B085ED00AFAFBE /* Assets.xcassets */,
 				1F243B1B29B0EBDA00AFAFBE /* pets_list.json */,
+				1F53122F29BA0AD800730018 /* config.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -488,19 +304,12 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
-		1F53121629B8FB9100730018 /* UI */ = {
+		1F53121629B8FB9100730018 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
 				1F0F1BC129B4657F0094CB51 /* Pets */,
 			);
-			path = UI;
-			sourceTree = "<group>";
-		};
-		1F53121729B8FCD400730018 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
+			path = Screen;
 			sourceTree = "<group>";
 		};
 		1F53121829B8FCE900730018 /* View */ = {
@@ -508,6 +317,7 @@
 			children = (
 				1F0F1BC229B4657F0094CB51 /* Pets.storyboard */,
 				1F0F1BC329B4657F0094CB51 /* PetsViewController.swift */,
+				1F0F1BC429B4657F0094CB51 /* PetRouter.swift */,
 				1F0F1C3F29B4EEA70094CB51 /* Cell */,
 			);
 			path = View;
@@ -516,18 +326,153 @@
 		1F53121929B8FD2700730018 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				1F53122C29BA090500730018 /* ConfigViewModel.swift */,
+				1F53122B29BA090500730018 /* PetCellViewModel.swift */,
 				1F53121A29B8FD2700730018 /* PetsViewModel.swift */,
-				1F53121B29B8FD2700730018 /* PetCellViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		1F53121E29B9019500730018 /* Services */ = {
+		1F53123129BA231700730018 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				1F53121F29B9019500730018 /* PetsService.swift */,
+				1F53123229BA231700730018 /* Routers */,
+				1F53123729BA231700730018 /* NetworkManager */,
+				1F53123929BA231700730018 /* NetworkMonitor */,
+				1F53123B29BA231700730018 /* NetworkError */,
+				1F53123F29BA231700730018 /* Services */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1F53123229BA231700730018 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				1F53123329BA231700730018 /* Router+Request.swift */,
+				1F53123429BA231700730018 /* NSMutableData+Append.swift */,
+				1F53123529BA231700730018 /* Router.swift */,
+				1F53123629BA231700730018 /* ImageData.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		1F53123729BA231700730018 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				1F53123829BA231700730018 /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		1F53123929BA231700730018 /* NetworkMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				1F53123A29BA231700730018 /* NetworkMonitor.swift */,
+			);
+			path = NetworkMonitor;
+			sourceTree = "<group>";
+		};
+		1F53123B29BA231700730018 /* NetworkError */ = {
+			isa = PBXGroup;
+			children = (
+				1F53123C29BA231700730018 /* ErrorParser.swift */,
+				1F53123D29BA231700730018 /* ErrorMessage.swift */,
+				1F53123E29BA231700730018 /* Errors.swift */,
+			);
+			path = NetworkError;
+			sourceTree = "<group>";
+		};
+		1F53123F29BA231700730018 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1F53124029BA231700730018 /* ConfigService.swift */,
+				1F53124129BA231700730018 /* PetsService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		1F53124229BA231700730018 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1F53124329BA231700730018 /* Environment.swift */,
+				1F53124429BA231700730018 /* HTTPHeaderField.swift */,
+				1F53124529BA231700730018 /* Extensions */,
+				1F53124B29BA231700730018 /* HTTPMethod.swift */,
+				1F53124C29BA231700730018 /* Common */,
+				1F53126A29BA231700730018 /* NetworkLogger.swift */,
+				1F53126B29BA231700730018 /* NetworkConstant.swift */,
+				1F53126C29BA231700730018 /* EndPoint.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1F53124529BA231700730018 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1F53124629BA231700730018 /* StatusCode+Helper.swift */,
+				1F53124729BA231700730018 /* Date+Ext.swift */,
+				1F53124829BA231700730018 /* CustomStringConvertible+Codable.swift */,
+				1F53124929BA231700730018 /* UIView+Ext.swift */,
+				1F53124A29BA231700730018 /* UICollectionView+Additions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1F53124C29BA231700730018 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1F53124D29BA231700730018 /* ImageCache.swift */,
+				1F53124E29BA231700730018 /* SNProgressInnerHUD.swift */,
+				1F53124F29BA231700730018 /* BaseUIViewController.swift */,
+				1F53125029BA231700730018 /* BaseProtocols.swift */,
+				1F53125129BA231700730018 /* Theme */,
+				1F53125429BA231700730018 /* Font */,
+				1F53126929BA231700730018 /* Toast.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		1F53125129BA231700730018 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				1F53125229BA231700730018 /* UIColor+Ext.swift */,
+				1F53125329BA231700730018 /* Theme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		1F53125429BA231700730018 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				1F53125529BA231700730018 /* Poppins */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		1F53125529BA231700730018 /* Poppins */ = {
+			isa = PBXGroup;
+			children = (
+				1F53125629BA231700730018 /* Poppins-ExtraLight.ttf */,
+				1F53125729BA231700730018 /* Poppins-ThinItalic.ttf */,
+				1F53125829BA231700730018 /* Poppins-ExtraLightItalic.ttf */,
+				1F53125929BA231700730018 /* Poppins-BoldItalic.ttf */,
+				1F53125A29BA231700730018 /* Poppins-Light.ttf */,
+				1F53125B29BA231700730018 /* Poppins-Medium.ttf */,
+				1F53125C29BA231700730018 /* Poppins-SemiBoldItalic.ttf */,
+				1F53125D29BA231700730018 /* Poppins-ExtraBoldItalic.ttf */,
+				1F53125E29BA231700730018 /* Poppins-ExtraBold.ttf */,
+				1F53125F29BA231700730018 /* Poppins-BlackItalic.ttf */,
+				1F53126029BA231700730018 /* OFL.txt */,
+				1F53126129BA231700730018 /* Poppins-Regular.ttf */,
+				1F53126229BA231700730018 /* Poppins-LightItalic.ttf */,
+				1F53126329BA231700730018 /* Poppins-Bold.ttf */,
+				1F53126429BA231700730018 /* Poppins-Black.ttf */,
+				1F53126529BA231700730018 /* Poppins-Thin.ttf */,
+				1F53126629BA231700730018 /* Poppins-SemiBold.ttf */,
+				1F53126729BA231700730018 /* Poppins-Italic.ttf */,
+				1F53126829BA231700730018 /* Poppins-MediumItalic.ttf */,
+			);
+			path = Poppins;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -634,37 +579,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F0F1C1C29B4B4990094CB51 /* Quicksand-Bold.ttf in Resources */,
-				1F0F1C3129B4B4990094CB51 /* Poppins-Thin.ttf in Resources */,
-				1F0F1C2829B4B4990094CB51 /* Poppins-SemiBoldItalic.ttf in Resources */,
-				1F0F1C2629B4B4990094CB51 /* Poppins-Light.ttf in Resources */,
-				1F0F1C1D29B4B4990094CB51 /* Quicksand-Medium.ttf in Resources */,
-				1F0F1C2929B4B4990094CB51 /* Poppins-ExtraBoldItalic.ttf in Resources */,
 				1F243B1C29B0EBDA00AFAFBE /* pets_list.json in Resources */,
-				1F0F1C3029B4B4990094CB51 /* Poppins-Black.ttf in Resources */,
 				1F0F1BC829B4657F0094CB51 /* Pets.storyboard in Resources */,
+				1F53128829BA231700730018 /* Poppins-ExtraLightItalic.ttf in Resources */,
+				1F53128F29BA231700730018 /* Poppins-BlackItalic.ttf in Resources */,
+				1F53128C29BA231700730018 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				1F53128B29BA231700730018 /* Poppins-Medium.ttf in Resources */,
 				1F243AAC29B085ED00AFAFBE /* LaunchScreen.storyboard in Resources */,
-				1F0F1C2329B4B4990094CB51 /* Poppins-ThinItalic.ttf in Resources */,
+				1F53123029BA0AD800730018 /* config.json in Resources */,
+				1F53129429BA231700730018 /* Poppins-Black.ttf in Resources */,
+				1F53128629BA231700730018 /* Poppins-ExtraLight.ttf in Resources */,
 				1F243AA929B085ED00AFAFBE /* Assets.xcassets in Resources */,
-				1F0F1C2B29B4B4990094CB51 /* Poppins-BlackItalic.ttf in Resources */,
-				1F0F1C2E29B4B4990094CB51 /* Poppins-LightItalic.ttf in Resources */,
+				1F53128D29BA231700730018 /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				1F53129229BA231700730018 /* Poppins-LightItalic.ttf in Resources */,
+				1F53128A29BA231700730018 /* Poppins-Light.ttf in Resources */,
+				1F53129029BA231700730018 /* OFL.txt in Resources */,
+				1F53129829BA231700730018 /* Poppins-MediumItalic.ttf in Resources */,
+				1F53128729BA231700730018 /* Poppins-ThinItalic.ttf in Resources */,
+				1F53128E29BA231700730018 /* Poppins-ExtraBold.ttf in Resources */,
+				1F53129329BA231700730018 /* Poppins-Bold.ttf in Resources */,
+				1F53129729BA231700730018 /* Poppins-Italic.ttf in Resources */,
+				1F53128929BA231700730018 /* Poppins-BoldItalic.ttf in Resources */,
+				1F53129529BA231700730018 /* Poppins-Thin.ttf in Resources */,
 				1F0F1C4229B4EEA70094CB51 /* PetsListCellView.xib in Resources */,
-				1F0F1C2A29B4B4990094CB51 /* Poppins-ExtraBold.ttf in Resources */,
-				1F0F1C2C29B4B4990094CB51 /* OFL.txt in Resources */,
-				1F0F1C2129B4B4990094CB51 /* Roboto-Regular.ttf in Resources */,
-				1F0F1C2029B4B4990094CB51 /* Poppins.zip in Resources */,
-				1F0F1C3329B4B4990094CB51 /* Poppins-Italic.ttf in Resources */,
-				1F0F1C2D29B4B4990094CB51 /* Poppins-Regular.ttf in Resources */,
-				1F0F1C1E29B4B4990094CB51 /* Quicksand-Regular.ttf in Resources */,
+				1F53129629BA231700730018 /* Poppins-SemiBold.ttf in Resources */,
+				1F53129129BA231700730018 /* Poppins-Regular.ttf in Resources */,
 				1F243AA729B085EB00AFAFBE /* Main.storyboard in Resources */,
-				1F0F1C2429B4B4990094CB51 /* Poppins-ExtraLightItalic.ttf in Resources */,
-				1F0F1C3429B4B4990094CB51 /* Poppins-MediumItalic.ttf in Resources */,
-				1F0F1C3229B4B4990094CB51 /* Poppins-SemiBold.ttf in Resources */,
-				1F0F1C2F29B4B4990094CB51 /* Poppins-Bold.ttf in Resources */,
-				1F0F1C1F29B4B4990094CB51 /* Quicksand-Light.ttf in Resources */,
-				1F0F1C2729B4B4990094CB51 /* Poppins-Medium.ttf in Resources */,
-				1F0F1C2229B4B4990094CB51 /* Poppins-ExtraLight.ttf in Resources */,
-				1F0F1C2529B4B4990094CB51 /* Poppins-BoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -689,46 +629,46 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F243B0929B0866200AFAFBE /* CustomStringConvertible+Codable.swift in Sources */,
-				1F53122029B9019500730018 /* PetsService.swift in Sources */,
-				1F0F1BD329B46CB20094CB51 /* CircularProgressView.swift in Sources */,
-				1F0F1BCD29B4657F0094CB51 /* PetsPresenter.swift in Sources */,
-				1F243B0529B0866200AFAFBE /* NetworkLogger.swift in Sources */,
-				1F243AFA29B0866100AFAFBE /* Router+Request.swift in Sources */,
-				1F243B0229B0866200AFAFBE /* Environment.swift in Sources */,
-				1F243B0429B0866200AFAFBE /* HTTPMethod.swift in Sources */,
-				1F0F1BD729B46E340094CB51 /* Toast.swift in Sources */,
+				1F53129929BA231700730018 /* Toast.swift in Sources */,
+				1F53128329BA231700730018 /* BaseProtocols.swift in Sources */,
+				1F53129C29BA231700730018 /* EndPoint.swift in Sources */,
 				1F0F1BC929B4657F0094CB51 /* PetsViewController.swift in Sources */,
-				1F243B0A29B0866200AFAFBE /* UICollectionView+Additions.swift in Sources */,
-				1F243B0629B0866200AFAFBE /* NetworkConstant.swift in Sources */,
-				1F243B0729B0866200AFAFBE /* EndPoint.swift in Sources */,
 				1F0F1C4329B4EEA70094CB51 /* PetsListCellView.swift in Sources */,
-				1F0F1BCB29B4657F0094CB51 /* PetsInteractor.swift in Sources */,
-				1F243B0829B0866200AFAFBE /* StatusCode+Helper.swift in Sources */,
-				1F53121D29B8FD2700730018 /* PetCellViewModel.swift in Sources */,
-				1F243B0029B0866200AFAFBE /* ErrorMessage.swift in Sources */,
-				1F0F1BCA29B4657F0094CB51 /* PetsWireframe.swift in Sources */,
-				1F243AFB29B0866100AFAFBE /* NSMutableData+Append.swift in Sources */,
-				1F0F1C1B29B4B4990094CB51 /* Theme.swift in Sources */,
-				1F0F1BF729B4B0330094CB51 /* SNProgressInnerHUD.swift in Sources */,
-				1F0F1BD529B46CB20094CB51 /* BaseProtocols.swift in Sources */,
+				1F53122D29BA090500730018 /* PetCellViewModel.swift in Sources */,
+				1F53128229BA231700730018 /* BaseUIViewController.swift in Sources */,
+				1F53127629BA231700730018 /* ConfigService.swift in Sources */,
+				1F53127D29BA231700730018 /* UIView+Ext.swift in Sources */,
+				1F53128429BA231700730018 /* UIColor+Ext.swift in Sources */,
+				1F53127E29BA231700730018 /* UICollectionView+Additions.swift in Sources */,
+				1F53128529BA231700730018 /* Theme.swift in Sources */,
+				1F53128129BA231700730018 /* SNProgressInnerHUD.swift in Sources */,
+				1F0F1BCA29B4657F0094CB51 /* PetRouter.swift in Sources */,
+				1F53129B29BA231700730018 /* NetworkConstant.swift in Sources */,
+				1F53127129BA231700730018 /* NetworkManager.swift in Sources */,
+				1F53127F29BA231700730018 /* HTTPMethod.swift in Sources */,
+				1F53126D29BA231700730018 /* Router+Request.swift in Sources */,
+				1F53126E29BA231700730018 /* NSMutableData+Append.swift in Sources */,
+				1F53122E29BA090500730018 /* ConfigViewModel.swift in Sources */,
+				1F53127729BA231700730018 /* PetsService.swift in Sources */,
+				1F53127229BA231700730018 /* NetworkMonitor.swift in Sources */,
 				1F243AA029B085EB00AFAFBE /* AppDelegate.swift in Sources */,
-				1F243B0B29B0866200AFAFBE /* NetworkMonitor.swift in Sources */,
-				1F243AFF29B0866200AFAFBE /* ErrorParser.swift in Sources */,
-				1F243AFE29B0866200AFAFBE /* NetworkManager.swift in Sources */,
-				1F243B0129B0866200AFAFBE /* Errors.swift in Sources */,
-				1F243B0329B0866200AFAFBE /* HTTPHeaderField.swift in Sources */,
-				1F0F1C1A29B4B4990094CB51 /* UIColor+Ext.swift in Sources */,
+				1F53127A29BA231700730018 /* StatusCode+Helper.swift in Sources */,
+				1F53127029BA231700730018 /* ImageData.swift in Sources */,
+				1F53127C29BA231700730018 /* CustomStringConvertible+Codable.swift in Sources */,
+				1F53127929BA231700730018 /* HTTPHeaderField.swift in Sources */,
+				1F53127B29BA231700730018 /* Date+Ext.swift in Sources */,
+				1F53127829BA231700730018 /* Environment.swift in Sources */,
 				1F53121C29B8FD2700730018 /* PetsViewModel.swift in Sources */,
-				1F0F1C3629B4E07C0094CB51 /* UIView+Ext.swift in Sources */,
+				1F53129A29BA231700730018 /* NetworkLogger.swift in Sources */,
+				1F53122429B9E88600730018 /* Launcher.swift in Sources */,
+				1F53127329BA231700730018 /* ErrorParser.swift in Sources */,
+				1F53128029BA231700730018 /* ImageCache.swift in Sources */,
+				1F53126F29BA231700730018 /* Router.swift in Sources */,
 				1F0F1C3929B4E1CD0094CB51 /* Pets.swift in Sources */,
-				1F0F1CDA29B510A20094CB51 /* Date+Ext.swift in Sources */,
-				1F0F1CD829B4FDA50094CB51 /* ImageCache.swift in Sources */,
-				1F0F1BCC29B4657F0094CB51 /* PetsProtocol.swift in Sources */,
-				1F243AFC29B0866200AFAFBE /* Router.swift in Sources */,
-				1F0F1BD429B46CB20094CB51 /* BaseUIViewController.swift in Sources */,
+				1F53127529BA231700730018 /* Errors.swift in Sources */,
+				1F53122629BA062C00730018 /* AppConfig.swift in Sources */,
+				1F53127429BA231700730018 /* ErrorMessage.swift in Sources */,
 				1F243AA229B085EB00AFAFBE /* SceneDelegate.swift in Sources */,
-				1F243AFD29B0866200AFAFBE /* ImageData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
